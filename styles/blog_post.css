@@ -1,0 +1,70 @@
+/*set the table to look nice */
+#quick_look_temperature_table{
+    width: 100%;
+    table-layout: fixed;
+    border:1px solid;
+    margin-bottom: 1em;
+
+}
+/*set table width for the columns */
+#quick_look_temperature_table td{
+    width: 1em;
+    text-align: center;
+    padding: 0.2em;
+}
+
+/*Top row styles*/
+#quick_look_temperature_table tr:first-child td{
+    border-bottom: 1px double;
+}
+#quick_look_temperature_table tr:first-child td:not(:last-child){
+    border-right: 1px dashed;
+
+}
+/*bottom row style*/
+#quick_look_temperature_table tr:last-child td:not(:last-child){
+    border-right: 1px dashed;
+}
+
+
+/*images for fumarole and vent to be next to each other */
+#fumarole, #volcanic_vent{
+    width:45%;
+    display:table;
+    height:auto;
+    margin-bottom: 3em;
+}
+/* float fumarole left, and add margins */
+#fumarole{
+    margin-left: 1em;
+    float: left;
+    margin-top: 0em;
+}
+/* put figcaption at bottom*/
+#figcaption{
+    display: table-caption;
+    caption-side: bottom;    
+}
+#plastic_beach{
+    width:50%;
+    float: right;
+}
+#plastic_rocks_example{
+    display: table;
+    width:50%;
+    float: right;
+    margin-top: 0;
+}
+#plastic_rocks_example figcaption{
+    display: table-caption;
+    caption-side: top; 
+    margin-top: 0;;
+}
+#padding_to_prevent_overflow{
+    margin-bottom: 2em;
+}
+
+
+
+
+
