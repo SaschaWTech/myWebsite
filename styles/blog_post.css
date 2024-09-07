@@ -48,20 +48,23 @@
 #plastic_beach{
     width:50%;
     float: right;
+    max-width: 25em;
 }
 #plastic_rocks_example{
-    display: table;
+    display: inline-table;
     width:50%;
-    float: right;
+    max-width: 25em;
     margin-top: 0;
+    float:right;
+    
 }
 #plastic_rocks_example figcaption{
     display: table-caption;
-    caption-side: top; 
-    margin-top: 0;;
+    caption-side: bottom; 
+    margin-top: 0;
 }
 #padding_to_prevent_overflow{
-    margin-bottom: 2em;
+    margin-bottom: 5em;
 }
 
 
