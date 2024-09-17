@@ -1,6 +1,19 @@
-#sascha_picture{
-    max-width: 25%;
-    float: right;
-    margin-left: 1em;
-    margin-top: 1em;
+#testing {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+.image{
+    flex: 1 0 0%;
+    text-align:right;/* and here*/
 }
+.image > img {
+    vertical-align:top;/* here */
+    max-width: 100%;
+    max-height: 300px;
+  }
+  #testing > .text {
+    flex: 2 0 0%;
+    /* and eventually */
+    
+    margin:auto 0;
+  }
